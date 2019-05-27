@@ -1,6 +1,5 @@
 def prime?(number)
   range = [*3..number]
-
   if number == 2
     return true
   elsif number.even? || number <= 1
