@@ -4,11 +4,11 @@ def prime?(number)
     return true
   elsif number.even?
     return false
-  else 
+  else
     isPrime = true
     range.each do | num |
-      if num 
-      
+      if num
+
     end
   end
 end
