@@ -2,7 +2,7 @@ def prime?(number)
   range = [*2..number]
   if number == 1 || number == 2
     return true
-  elsif number.even?
+  elsif number.even? || number < 1
     return false
   else
     isPrime = true
