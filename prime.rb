@@ -8,7 +8,7 @@ def prime?(number)
     isPrime = true
     range.each do | num |
       if range % num == 0
-        isPrime = false  
+        isPrime = false
       end
     end
     return isPrime
